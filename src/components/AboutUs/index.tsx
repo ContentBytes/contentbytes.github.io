@@ -38,7 +38,7 @@ export default function AboutUs() {
             <br />
             #UX
             <br />
-            Training materials
+            #Training materials
           </p>
 
           <ButtonYellow link={EventsPage} label="📆 Check upcoming events" />
