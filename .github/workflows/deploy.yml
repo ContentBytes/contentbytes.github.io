@@ -24,12 +24,13 @@ jobs:
         run: yarn build
         env:
           name: github-pages
-          url: ${\{ steps.deployment.outputs.page_url }}
+          url: ${{ steps.deployment.outputs.page_url }}
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        id: deployment
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # Build output to publish to the `gh-pages` branch:

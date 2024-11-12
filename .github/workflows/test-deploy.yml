@@ -21,7 +21,8 @@ jobs:
       - name: Install dependencies
         run: yarn install --immutable
       - name: Test build website
+        id: deployment
         run: yarn build
         env:
           name: github-pages
-          url: ${\{ steps.deployment.outputs.page_url }}
+          url: ${{ steps.deployment.outputs.page_url }}
