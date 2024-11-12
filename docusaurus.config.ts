@@ -15,7 +15,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Content Bytes', // Usually your GitHub org/user name.
+  organizationName: 'ContentBytes', // Usually your GitHub org/user name.
   projectName: 'contentbytes.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
