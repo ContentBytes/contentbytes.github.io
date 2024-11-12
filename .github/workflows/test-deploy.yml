@@ -22,3 +22,6 @@ jobs:
         run: yarn install --immutable
       - name: Test build website
         run: yarn build
+        env:
+          name: github-pages
+          url: ${\{ steps.deployment.outputs.page_url }}

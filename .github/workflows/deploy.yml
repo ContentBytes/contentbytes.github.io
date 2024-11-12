@@ -22,6 +22,9 @@ jobs:
         run: yarn install --immutable
       - name: Build website
         run: yarn build
+        env:
+          name: github-pages
+          url: ${\{ steps.deployment.outputs.page_url }}
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
