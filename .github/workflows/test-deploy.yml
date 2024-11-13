@@ -3,7 +3,7 @@ name: Test deployment
 on:
   pull_request:
     branches:
-      - main
+      - deployment-tests
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
@@ -12,17 +12,15 @@ jobs:
     name: Test deployment
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
         with:
-          node-version: 20
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
           cache: yarn
 
       - name: Install dependencies
-        run: yarn install --immutable
+        run: yarn install --frozen-lockfile
       - name: Test build website
-        id: deployment
         run: yarn build
-        env:
-          name: github-pages
-          url: ${{ steps.deployment.outputs.page_url }}
