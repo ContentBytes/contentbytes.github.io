@@ -34,13 +34,15 @@ function Partner({ label, link, imageSrc }: PartnerItem) {
 export default function Partners() {
   return (
     <div id="partners" className={styles.background}>
-      <div>
-        <h1>Partners</h1>
-      </div>
-      <div className={clsx("row", styles.partners)}>
-        {partnerList.map((props, idx) => (
-          <Partner key={idx} {...props} />
-        ))}
+      <div className="container">
+        <div>
+          <h1>Partners</h1>
+        </div>
+        <div className={clsx("row", styles.partners)}>
+          {partnerList.map((props, idx) => (
+            <Partner key={idx} {...props} />
+          ))}
+        </div>
       </div>
     </div>
   );

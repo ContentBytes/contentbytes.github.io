@@ -6,11 +6,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .description section {
     max-width: 800px;
-    padding: 80px;
+    padding: 80px 0;
 }
 
 image {

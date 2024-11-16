@@ -1,5 +1,12 @@
 .background {
-    padding: 100px 150px;
+    padding: 100px 0;
+}
+
+.eventList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+    padding: 60px 0;
 }
 
 .event {
@@ -8,9 +15,7 @@
     border-color: #004D21;
     border-style: solid;
     padding: 20px 20px 0px 20px;
-    line-height: 10px;
-    margin: 30px 0px;
-    min-width: 320px;
+    line-height: 100%;
 }
 
 .event-title {
