@@ -39,7 +39,7 @@ const OrganizerList: OrganizerItem[] = [
 
 function Organizer({ Svg, name, title, linkedIn }: OrganizerItem) {
   return (
-    <div className={clsx("text--center col", styles.container)}>
+    <div className={clsx("text--center col", styles.card)}>
       <Svg className={styles.image} role="img" />
       <h3 className={styles.name}>{name}</h3>
       <p className={styles.title}>{title}</p>
@@ -61,7 +61,7 @@ function Organizer({ Svg, name, title, linkedIn }: OrganizerItem) {
 export default function Cards() {
   return (
     <section>
-      <div className={clsx("row", styles.cards)}>
+      <div className={styles.cardList}>
         {OrganizerList.map((props, idx) => (
           <Organizer key={idx} {...props} />
         ))}
