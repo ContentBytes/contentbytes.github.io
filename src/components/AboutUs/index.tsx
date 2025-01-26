@@ -4,7 +4,7 @@ import clsx from "clsx";
 import { ButtonYellow } from "../Button";
 import Heading from '@theme/Heading';
 
-const EventsPage = "docs/events";
+const EventsPage = "events";
 
 const imageSize = 320;
 
