@@ -6,9 +6,11 @@ Through regular meetups and events, we want to reach beyond the realm of technic
 
 We strongly believe that exploring areas such as UX and UI, product design, trainings and workshops, or project management can create a thriving content community ready to drive exciting ideas and initiatives.
 
-[Join us on LinkedIn](https://www.linkedin.com/company/content-bytes/)
-
 [Join us on Facebook](https://www.facebook.com/people/Content-Bytes/61564025612434/)
+
+[Join us on Instagram](https://www.instagram.com/contentbytes.krk/)
+
+[Join us on LinkedIn](https://www.linkedin.com/company/content-bytes/)
 
 <!--
 **ContentBytes/contentbytes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
