@@ -1,7 +1,7 @@
 import styles from "./styles.module.css";
 import { ButtonYellow } from "../Button";
 
-const EventsPage = "docs/events";
+const EventsPage = "events";
 
 type EventItem = {
   title: string;
