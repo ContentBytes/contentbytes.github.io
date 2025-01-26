@@ -2,45 +2,55 @@ import styles from "./styles.module.css";
 import Logo from "@site/static/img/logo.svg";
 import Link from "@docusaurus/Link";
 import clsx from "clsx";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 type OrganizerItem = {
-  Svg: React.ComponentType<React.ComponentProps<"svg">>;
+  picture: string;
   name: string;
+  alt: string;
   title: string;
   linkedIn: string;
 };
 
 const OrganizerList: OrganizerItem[] = [
   {
-    Svg: Logo,
+    picture: "img/orgs/basia.png",
     name: "Barbara Czyż 🐰",
+    alt: "Barbara",
     title: "Senior Technical Writer",
     linkedIn: "https://www.linkedin.com/in/barbara-szwarc/",
   },
   {
-    Svg: Logo,
+    picture: "img/orgs/edyta.png",
     name: "Edyta Rakowska 🏕",
-    title: "Technical\nWriter",
+    alt: "Edyta",
+    title: "Senior Technical\nWriter",
     linkedIn: "https://www.linkedin.com/in/edyta-rakowska/",
   },
   {
-    Svg: Logo,
+    picture: "img/orgs/michal.png",
     name: "Michał Olender ✍️",
+    alt: "Michał",
     title: "Technical\nWriter",
-    linkedIn: "https://www.linkedin.com/in/edyta-rakowska/",
+    linkedIn: "https://www.linkedin.com/in/michal-olender/",
   },
   {
-    Svg: Logo,
+    picture: "img/orgs/pawel.png",
     name: "Paweł Chłodnicki 🤘",
+    alt: "Paweł",
     title: "Senior Content Designer",
-    linkedIn: "https://www.linkedin.com/in/edyta-rakowska/",
+    linkedIn: "https://www.linkedin.com/in/pawelchlodnicki/",
   },
 ];
 
-function Organizer({ Svg, name, title, linkedIn }: OrganizerItem) {
+function Organizer({ picture, name, alt, title, linkedIn }: OrganizerItem) {
   return (
     <div className={clsx("text--center col", styles.card)}>
-      <Svg className={styles.image} role="img" />
+      <img
+        alt={alt}
+        src={picture}
+        className={styles.image}
+      />
       <h3 className={styles.name}>{name}</h3>
       <p className={styles.title}>{title}</p>
       <div className={styles.socials}>

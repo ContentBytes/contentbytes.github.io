@@ -19,6 +19,11 @@ const partnerList: PartnerItem[] = [
     link: "https://techwriterkoduje.pl",
     imageSrc: "img/partners/techwriter-koduje.png",
   },
+  {
+    label: "Go to apify.com",
+    link: "https://apify.com",
+    imageSrc: "img/partners/apify.png",
+  },
 ];
 
 function Partner({ label, link, imageSrc }: PartnerItem) {

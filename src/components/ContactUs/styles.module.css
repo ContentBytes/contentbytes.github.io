@@ -18,4 +18,5 @@
 .contact-info {
     min-width: 250px;
     margin: auto;
+    text-decoration: underline;
 }

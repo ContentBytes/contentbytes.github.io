@@ -3,6 +3,40 @@ import { ButtonYellow } from "../Button";
 
 const EventsPage = "docs/events";
 
+type EventItem = {
+  title: string;
+  date: string;
+  state: string;
+};
+
+const RecentEvents: EventItem[] = [
+  {
+    title: "Content Bytes KRK #05",
+    date: "26 February 2025",
+    state: "[👉 Upcoming]",
+  },
+  {
+    title: "Content Bytes KRK #04",
+    date: "20 January 2025",
+    state: "[✅ Completed]",
+  },
+  {
+    title: "Content Bytes KRK #03",
+    date: "26 November 2024",
+    state: "[✅ Completed]",
+  },
+];
+
+function CreateEvent({ title, date, state }: EventItem) {
+  return (
+    <div className={styles.event}>
+      <p className={styles["event-title"]}>{title}</p>
+      <p>{date}</p>
+      <p>{state}</p>
+    </div>
+  );
+}
+
 export default function Events() {
   return (
     <div className={styles.background}>
@@ -11,21 +45,9 @@ export default function Events() {
           <h1>Events</h1>
         </div>
         <div className={styles.eventList}>
-          <div className={styles.event}>
-            <p className={styles["event-title"]}>Content Bytes KRK #03</p>
-            <p>26 November 2024</p>
-            <p>[👉 Upcoming]</p>
-          </div>
-          <div className={styles.event}>
-            <p className={styles["event-title"]}>Content Bytes KRK x girls.js</p>
-            <p>30 October 2024</p>
-            <p>[✅ Completed]</p>
-          </div>
-          <div className={styles.event}>
-            <p className={styles["event-title"]}>Content Bytes KRK #01</p>
-            <p>3 October 2024</p>
-            <p>[✅ Completed]</p>
-          </div>
+          {RecentEvents.map((props, idx) => (
+            <CreateEvent key={idx} {...props} />
+          ))}
         </div>
         <div className={styles.buttons}>
           <ButtonYellow link={EventsPage} label="🔗 Check all events" />

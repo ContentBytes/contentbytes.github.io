@@ -36,6 +36,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
+          routeBasePath: '/',
         },
         blog: {
           showReadingTime: true,
@@ -97,12 +98,16 @@ const config: Config = {
       },
       links: [
         {
-          label: "LinkedIn",
-          href: "https://www.linkedin.com/company/content-bytes/",
+          label: "Instagram",
+          href: "https://www.instagram.com/contentbytes.krk/", 
         },
         {
           label: "Facebook",
           href: "https://www.facebook.com/people/Content-Bytes/61564025612434/",
+        },
+        {
+          label: "LinkedIn",
+          href: "https://www.linkedin.com/company/content-bytes/",
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Content Bytes`,

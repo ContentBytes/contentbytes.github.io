@@ -3,7 +3,8 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
  
   events: [
-    'events/index'
+    'events/index',
+    'events/2025/5',
   ]
 
   // But you can create a sidebar manually

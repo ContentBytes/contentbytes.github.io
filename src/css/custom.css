@@ -24,7 +24,7 @@
   --ifm-heading-font-family: 'Pixelify Sans', sans-serif;
   --ifm-heading-font-weight: 400;
   --ifm-heading-color: #004D21;
-  --doc-sidebar-width: 230px !important;
+  --doc-sidebar-width: 300px !important;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */

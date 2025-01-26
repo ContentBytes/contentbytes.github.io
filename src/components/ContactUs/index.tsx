@@ -7,12 +7,11 @@ export default function ContactUs() {
       <div className={clsx(styles.columns, 'container')}>
         <div className={styles["contact-description"]}>
           <h1>Contact us</h1>
-          <p>Reach out to us</p>
+          <p>Reach out to us, we're happy to hear from you!</p>
           <p>
-            We're happy to hear from you
-            <li>share feedback</li>
-            <li>partner with us</li>
-            <li>...</li>
+            <li>Share your feedback</li>
+            <li>Become a speaker</li>
+            <li>Partner with us</li>
           </p>
         </div>
         <div className={styles["contact-info"]}>contentbytes.krk@gmail.com</div>
