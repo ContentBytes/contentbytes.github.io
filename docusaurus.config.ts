@@ -2,6 +2,10 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+const linkedinLink = "https://www.linkedin.com/company/content-bytes/";
+const instagramLink = "https://www.instagram.com/contentbytes.krk/";
+const facebookLink = "https://www.facebook.com/people/Content-Bytes/61564025612434/";
+
 const config: Config = {
   title: "Content Bytes",
   tagline: "Meetups for content community in Kraków, Poland",
@@ -86,6 +90,24 @@ const config: Config = {
           position: "right",
           label: "Contact",
         },
+        {
+          href: facebookLink,
+          position: 'right',
+          className: "navbar--socials-icon facebook-icon", 
+          'aria-label': "Facebook",
+        },
+        {
+          href: instagramLink,
+          position: 'right',
+          className: "navbar--socials-icon instagram-icon", 
+          'aria-label': "Instagram",
+        },
+        {
+          href: linkedinLink,
+          position: 'right',
+          className: "navbar--socials-icon linkedin-icon", 
+          'aria-label': "LinkedIn",
+        },
       ],
     },
     footer: {
@@ -98,15 +120,15 @@ const config: Config = {
       links: [
         {
           label: "Instagram",
-          href: "https://www.instagram.com/contentbytes.krk/", 
+          href: instagramLink, 
         },
         {
           label: "Facebook",
-          href: "https://www.facebook.com/people/Content-Bytes/61564025612434/",
+          href: facebookLink,
         },
         {
           label: "LinkedIn",
-          href: "https://www.linkedin.com/company/content-bytes/",
+          href: linkedinLink,
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Content Bytes`,
