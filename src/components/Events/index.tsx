@@ -41,7 +41,7 @@ export default function Events() {
   return (
     <div className={styles.background}>
       <div className="container">
-        <div>
+        <div id="events">
           <h1>Events</h1>
         </div>
         <div className={styles.eventList}>

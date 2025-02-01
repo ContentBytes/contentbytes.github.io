@@ -68,12 +68,11 @@ const config: Config = {
       items: [
         {
           to: "/",
-          label: "About",
           position: "right",
+          label: "About",
         },
         {
-          type: "docSidebar",
-          sidebarId: "events",
+          to: "/#events",
           position: "right",
           label: "Events",
         },

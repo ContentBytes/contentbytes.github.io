@@ -38,7 +38,7 @@ const OrganizerList: OrganizerItem[] = [
     picture: "img/orgs/pawel.png",
     name: "Paweł Chłodnicki 🤘",
     alt: "Paweł",
-    title: "Senior Content Designer",
+    title: "Senior Product Designer",
     linkedIn: "https://www.linkedin.com/in/pawelchlodnicki/",
   },
 ];
