@@ -39,9 +39,9 @@ function CreateEvent({ title, date, state }: EventItem) {
 
 export default function Events() {
   return (
-    <div className={styles.background}>
+    <div id="events" className={styles.background}>
       <div className="container">
-        <div id="events">
+        <div>
           <h1>Events</h1>
         </div>
         <div className={styles.eventList}>
