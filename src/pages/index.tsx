@@ -37,7 +37,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Content community meetups in Kraków, Poland`}
-      description="Description will go into a meta tag in <head />">
+      description="Content Bytes is a community where content enthusiasts from different backgrounds share their knowledge and expertise, at the same time broadening their own.">
       <main>
         <AboutUs />
         <Events />
