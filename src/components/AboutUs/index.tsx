@@ -12,8 +12,8 @@ export default function AboutUs() {
   return (
     <div
       className={clsx(
-        "padding-top--lg",
-        "padding-bottom--lg",
+        /* "padding-top--lg",
+        "padding-bottom--lg", */
         styles.background
       )}
     >
