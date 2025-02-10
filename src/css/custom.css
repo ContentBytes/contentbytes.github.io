@@ -44,6 +44,10 @@
   --ifm-hero-text-color: black;
 }
 
+.pagination-nav {
+  display: none;
+}
+
 /* Icons for socials in the navbar */
 
 .navbar--socials-icon {

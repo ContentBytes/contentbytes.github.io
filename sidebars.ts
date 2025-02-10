@@ -4,21 +4,11 @@ const sidebars: SidebarsConfig = {
  
   events: [
     'events/index',
-    'events/2025/5',
+    'events/2025/4',
+    'events/2024/3',
+    'events/2024/2',
+    'events/2024/1',
   ]
-
-  // But you can create a sidebar manually
-  /*
-  tutorialSidebar: [
-    'intro',
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-   */
 };
 
 export default sidebars;
