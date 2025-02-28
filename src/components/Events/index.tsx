@@ -13,7 +13,7 @@ const RecentEvents: EventItem[] = [
   {
     title: "Content Bytes KRK #05",
     date: "26 February 2025",
-    state: "[👉 Upcoming]",
+    state: "[✅ Completed]",
   },
   {
     title: "Content Bytes KRK #04",
