@@ -9,7 +9,7 @@ const facebookLink = "https://www.facebook.com/people/Content-Bytes/615640256124
 const config: Config = {
   title: "Content Bytes",
   tagline: "Meetups for content community in Kraków, Poland",
-  favicon: "img/favicon.ico",
+  favicon: "img/logo.svg",
 
   // Set the production url of your site here
   url: "https://contentbytes.pl",
@@ -114,8 +114,8 @@ const config: Config = {
       style: "dark",
       logo: {
         alt: "Content Bytes logo",
-        src: "img/logo.svg",
-        height: 80,
+        src: "img/logo-dark-bg.svg",
+        height: 50,
       },
       links: [
         {

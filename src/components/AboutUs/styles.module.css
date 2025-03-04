@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 996px) {
-    .background {
-      padding: 80px 0;
+    .image {
+      margin-bottom: 60px;
     }
   }
