@@ -1,6 +1,7 @@
 .container {
     color: #000000;
     border-radius: 1px 10px 10px 10px;
+    border-style: solid;
     padding: 1rem 2rem;
     font-family: var(--ifm-font-family-base);
     font-size: var(--ifm-font-size);
