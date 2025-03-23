@@ -1,23 +1,22 @@
 .container {
     color: #000000;
-    border-radius: 1px 10px 10px 10px;
     border-style: solid;
+    border-radius: 10px 10px 10px 10px;
+    border-color: #9C9C9C;
+    border-width: 0.5px;
     padding: 1rem 2rem;
     font-family: var(--ifm-font-family-base);
-    font-size: var(--ifm-font-size);
+    font-size: 1rem;
 }
 
 .container:hover {
     color: #E5F6E6;
-    background-color: #000000;
+    background-color: #292929;
     cursor: pointer;
     transition-duration: 0.4s;
 }
 
-.yellow {
-    background-color: #FFD700;
-}
-
-.green {
-    background-color: #E5F6E6;
+.black {
+    color: white;
+    background-color: #000000;
 }

@@ -25,3 +25,20 @@
 .buttons {
     float: right;
 }
+
+.divider{
+    width: 1rem;
+    height: auto;
+    display: inline-block;
+}
+
+.image {
+    border: 0.5px solid black;
+}
+
+@media only screen and (max-width: 996px) {
+    .buttons {
+        display: flex;
+        justify-content: center;
+    }
+}

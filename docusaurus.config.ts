@@ -86,6 +86,11 @@ const config: Config = {
           label: "Organizers",
         },
         {
+          to: "/#partners",
+          position: "right",
+          label: "Partners",
+        },
+        {
           to: "/#contact",
           position: "right",
           label: "Contact",

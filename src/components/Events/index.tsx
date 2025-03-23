@@ -1,56 +1,29 @@
 import styles from "./styles.module.css";
-import { ButtonYellow } from "../Button";
+import { ButtonBlack, ButtonWhite } from "../Button";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import clsx from "clsx";
 
-const EventsPage = "events";
-
-type EventItem = {
-  title: string;
-  date: string;
-  state: string;
-};
-
-const RecentEvents: EventItem[] = [
-  {
-    title: "Content Bytes KRK #05",
-    date: "26 February 2025",
-    state: "[✅ Completed]",
-  },
-  {
-    title: "Content Bytes KRK #04",
-    date: "20 January 2025",
-    state: "[✅ Completed]",
-  },
-  {
-    title: "Content Bytes KRK #03",
-    date: "26 November 2024",
-    state: "[✅ Completed]",
-  },
-];
-
-function CreateEvent({ title, date, state }: EventItem) {
-  return (
-    <div className={styles.event}>
-      <p className={styles["event-title"]}>{title}</p>
-      <p>{date}</p>
-      <p>{state}</p>
-    </div>
-  );
-}
+const EventPage = "events/2025/6";
+const SignupForm = "https://forms.gle/v55UiToQSKSWzt9F7";
 
 export default function Events() {
   return (
     <div id="events" className={styles.background}>
       <div className="container">
         <div>
-          <h1>Events</h1>
+          <h1 className="padding-bottom--lg">Coming soon</h1>
         </div>
-        <div className={styles.eventList}>
-          {RecentEvents.map((props, idx) => (
-            <CreateEvent key={idx} {...props} />
-          ))}
+        <div className="padding-bottom--lg">
+          <img
+            alt="Promotion image for the Content Bytes event no.6"
+            src={useBaseUrl("img/events/event6.png")}
+            className={clsx(styles.image)}
+          />
         </div>
-        <div className={styles.buttons}>
-          <ButtonYellow link={EventsPage} label="🔗 Check all events" />
+        <div className={clsx(styles.buttons)}>
+          <ButtonWhite link={EventPage} label="👀 Learn more" />
+          <div className={styles.divider} />
+          <ButtonBlack link={SignupForm} label="📨 Sign up" />
         </div>
       </div>
     </div>

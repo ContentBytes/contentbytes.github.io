@@ -17,14 +17,14 @@ const OrganizerList: OrganizerItem[] = [
     picture: "img/orgs/basia.png",
     name: "Barbara Czyż 🐰",
     alt: "Barbara",
-    title: "Senior Technical Writer",
+    title: "Senior\nTechnical Writer",
     linkedIn: "https://www.linkedin.com/in/barbara-szwarc/",
   },
   {
     picture: "img/orgs/edyta.png",
     name: "Edyta Rakowska 🏕",
     alt: "Edyta",
-    title: "Senior Technical\nWriter",
+    title: "Senior\nTechnical Writer",
     linkedIn: "https://www.linkedin.com/in/edyta-rakowska/",
   },
   {
@@ -38,7 +38,7 @@ const OrganizerList: OrganizerItem[] = [
     picture: "img/orgs/pawel.png",
     name: "Paweł Chłodnicki 🤘",
     alt: "Paweł",
-    title: "Senior Product Designer",
+    title: "Senior\nProduct Designer",
     linkedIn: "https://www.linkedin.com/in/pawelchlodnicki/",
   },
 ];
