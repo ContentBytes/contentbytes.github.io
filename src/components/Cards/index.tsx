@@ -17,7 +17,7 @@ const OrganizerList: OrganizerItem[] = [
     picture: "img/orgs/basia.png",
     name: "Barbara Czyż 🐰",
     alt: "Barbara",
-    title: "Senior\nTechnical Writer",
+    title: "Technical\nWriter",
     linkedIn: "https://www.linkedin.com/in/barbara-szwarc/",
   },
   {

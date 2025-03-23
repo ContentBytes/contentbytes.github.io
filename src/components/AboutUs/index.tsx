@@ -26,7 +26,7 @@ export default function AboutUs() {
           <Pill text="Next meetup: 27 March" />
         </div>
         <p className={clsx(styles.title)}>
-          Community of content enthusiast
+          Community of content enthusiasts
           <br />
           from different backgrounds
         </p>
