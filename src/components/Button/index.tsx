@@ -1,14 +1,14 @@
 import clsx from 'clsx';
-import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
+import styles from './styles.module.css';
 
-export function ButtonYellow({ link, label }) {
+export function ButtonWhite({ link, label }) {
     return (
         <Link to={link}>
             <button
                 className={clsx(
                     styles.container,
-                    styles.yellow,
+                    styles.white,
                 )}>
                 {label}
             </button>
@@ -16,13 +16,13 @@ export function ButtonYellow({ link, label }) {
     )
 }
 
-export function ButtonGreen({ link, label }) {
+export function ButtonBlack({ link, label }) {
     return (
         <Link to={link}>
             <button
                 className={clsx(
                     styles.container,
-                    styles.green,
+                    styles.black,
                 )}>
                 {label}
             </button>

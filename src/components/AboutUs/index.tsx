@@ -1,55 +1,44 @@
-import styles from "./styles.module.css";
-import Logo from "@site/static/img/logo.svg";
 import clsx from "clsx";
-import { ButtonYellow } from "../Button";
-import Heading from '@theme/Heading';
+import styles from "./styles.module.css";
+import { ButtonBlack, ButtonWhite } from "../Button";
+import Pill from "../Pill";
 
-const EventsPage = "events";
-
-const imageSize = 320;
+const SignupForm = "https://forms.gle/j8CdVnjZQ7v748xH7";
+const UpcomingEvent = "events/2025/6";
 
 export default function AboutUs() {
   return (
-    <div
-      className={clsx(
-        /* "padding-top--lg",
-        "padding-bottom--lg", */
-        styles.background
-      )}
-    >
-      <div className={clsx("container"/* , styles.description */)}>
-        <div className="row">
-          <div className="col col--6">
-            <div className="col-demo">
-              <Logo width={imageSize} height={imageSize} className={styles.image}/>
-            </div>
-          </div>
-          <div className="col col--6">
-            <div className="col-demo">
-              <Heading as='h1'>Welcome to Content Bytes!</Heading>
-              <p>
-                Content Bytes is a community where content enthusiasts from
-                different backgrounds share their knowledge and expertise, at
-                the same time broadening their own.{" "}
-              </p>
-              <p>
-                #Technical writing
-                <br />
-                #UX writing
-                <br />
-                #Research
-                <br />
-                #Product
-                <br />
-                #UX
-              </p>
-
-              <ButtonYellow
-                link={EventsPage}
-                label="📆 Check upcoming events"
-              />
-            </div>
-          </div>
+    <div>
+      <div
+        className={clsx(
+          styles["hero-image"],
+          "padding-top--lg",
+          "padding-bottom--lg"
+        )}
+      >
+        <div
+          className={clsx(
+            styles.center,
+            "padding-bottom--lg",
+            "padding-top--lg"
+          )}
+        >
+          <Pill text="Next meetup: 27 March" />
+        </div>
+        <p className={clsx(styles.title)}>
+          Community of content enthusiast
+          <br />
+          from different backgrounds
+        </p>
+        <div className={clsx(styles.description, "padding-bottom--lg")}>
+          <p>documentation, UX, accessibility, AI, storytelling, research</p>
+        </div>
+        <div
+          className={clsx(styles.center, styles.buttons, "padding-bottom--lg")}
+        >
+          <ButtonWhite link={SignupForm} label="🙋 Sign up for updates" />
+          <div className={styles.divider} />
+          <ButtonBlack link={UpcomingEvent} label="👀 Check upcoming event" />
         </div>
       </div>
     </div>
