@@ -34,7 +34,7 @@ export default function AboutUs() {
           <p>documentation, UX, accessibility, AI, storytelling, research</p>
         </div>
         <div
-          className={clsx(styles.center, styles.buttons, "padding-bottom--lg")}
+          className={clsx(styles.centerButtons, styles.buttons, "padding-bottom--lg")}
         >
           <ButtonWhite link={SignupForm} label="🙋 Sign up for updates" />
           <div className={styles.divider} />

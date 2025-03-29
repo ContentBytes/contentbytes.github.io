@@ -3,6 +3,11 @@
     justify-content: center;
 }
 
+.centerButtons {
+    display: flex;
+    justify-content: center;
+}
+
 .divider{
     width: 1rem;
     height: auto;
@@ -38,5 +43,12 @@
 
     .buttons {
         padding: 1rem;
+    }
+
+    .centerButtons {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
     }
 }
