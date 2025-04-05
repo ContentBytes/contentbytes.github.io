@@ -96,6 +96,12 @@ const config: Config = {
           label: "Contact",
         },
         {
+          to: "cakeconf",
+          position: "right",
+          label: "🧁 CAKE conf 2025",
+          className: "cake-button"
+        },
+        {
           href: facebookLink,
           position: 'right',
           className: "navbar--socials-icon facebook-icon", 
