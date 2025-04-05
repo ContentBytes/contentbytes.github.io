@@ -5,6 +5,7 @@ import Pill from "../Pill";
 
 const SignupForm = "https://forms.gle/j8CdVnjZQ7v748xH7";
 const UpcomingEvent = "events/2025/6";
+const AllEvents = "events";
 
 export default function AboutUs() {
   return (
@@ -38,7 +39,8 @@ export default function AboutUs() {
         >
           <ButtonWhite link={SignupForm} label="🙋 Sign up for updates" />
           <div className={styles.divider} />
-          <ButtonBlack link={UpcomingEvent} label="👀 Check upcoming event" />
+          {/* <ButtonBlack link={UpcomingEvent} label="👀 Check upcoming event" /> */}
+          <ButtonBlack link={AllEvents} label="👀 Check past events" />
         </div>
       </div>
     </div>
