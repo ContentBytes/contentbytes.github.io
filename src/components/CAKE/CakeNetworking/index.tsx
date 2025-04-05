@@ -10,7 +10,7 @@ export default function CakeNetworking() {
         <div className={styles.description}>
           <p>Workshops in small groups</p>
           <p>Afterparty</p>
-          <p>Frquent breaks</p>
+          <p>Frequent breaks</p>
         </div>
         <div className={styles.images}>
           <img
