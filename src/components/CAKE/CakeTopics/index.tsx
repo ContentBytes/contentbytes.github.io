@@ -10,8 +10,9 @@ export default function CakeTopics() {
         <div className={clsx(styles.text, styles.topics)}>
           <p>Storytelling</p>
           <p>Documentation</p>
-          <p>UX writing</p>
           <p>Accessibility</p>
+          <p>UX writing</p>
+          <p>Design</p>
           <p>AI</p>
         </div>
       </div>
