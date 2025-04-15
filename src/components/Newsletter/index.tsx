@@ -11,8 +11,8 @@ export default function Newsletter() {
         <div className="ml-embedded" data-form="3GCsHv"></div>
         <div className={styles.divider} />
         <div>
-          <p>
-            Leave us your email and we'll keep you well-informed about what's
+          <p className={styles.spaceTop}>
+            Leave us your email and we'll keep you<br/> well-informed about what's
             cooking 👨‍🍳
           </p>
           <p>No spam, only essential updates.</p>
