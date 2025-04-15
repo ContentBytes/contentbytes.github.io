@@ -8,6 +8,7 @@ import Events from '../components/Events';
 import Organizers from '../components/Organizers';
 import Partners from '../components/Partners';
 import ContactUs from '../components/ContactUs';
+import Newsletter from '../components/Newsletter';
 
 import styles from './index.module.css';
 
@@ -44,6 +45,7 @@ export default function Home(): JSX.Element {
         <Organizers />
         <Partners />
         <ContactUs />
+        <Newsletter />
       </main>
     </Layout>
   );
