@@ -7,9 +7,9 @@ export default function Newsletter() {
       <div>
         <h1 className={styles.title}>Get notified about upcoming events!</h1>
       </div>
-      <div className={styles.center}>
+{/*       <div className={styles.center}> */}
         <div className="ml-embedded" data-form="3GCsHv"></div>
-        <div className={styles.divider} />
+      {/*   <div className={styles.divider} />
         <div>
           <p className={styles.spaceTop}>
             Leave us your email and we'll keep you<br/> well-informed about what's
@@ -17,8 +17,7 @@ export default function Newsletter() {
           </p>
           <p>No spam, only essential updates.</p>
           <p>You can change your preferences any time.</p>
-        </div>
+        </div> */}
       </div>
-    </div>
   );
 }
