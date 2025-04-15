@@ -45,7 +45,7 @@ export default function Home(): JSX.Element {
         <Organizers />
         <Partners />
         <ContactUs />
-        <Newsletter />
+        {/* <Newsletter /> */}
       </main>
     </Layout>
   );
