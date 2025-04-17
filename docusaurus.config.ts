@@ -96,7 +96,7 @@ const config: Config = {
           label: "Contact",
         },
         {
-          to: "cakeconf",
+          to: "https://cakeconf.contentbytes.pl",
           position: "right",
           label: "🧁 CAKE conf 2025",
           className: "cake-button"
