@@ -3,7 +3,7 @@ import { ButtonBlack, ButtonWhite } from "../Button";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import clsx from "clsx";
 
-const EventPage = "events/2025/6";
+const EventPage = "events/2025/7";
 const SignupForm = "https://forms.gle/v55UiToQSKSWzt9F7";
 
 export default function Events() {
@@ -15,8 +15,8 @@ export default function Events() {
         </div>
         <div className="padding-bottom--lg">
           <img
-            alt="Promotion image for the Content Bytes event no.6"
-            src={useBaseUrl("img/events/event6.png")}
+            alt="Promotion image for the Content Bytes event."
+            src={useBaseUrl("img/events/event7.png")}
             className={clsx(styles.image)}
           />
         </div>
