@@ -14,7 +14,7 @@ export default function ContactUs() {
             <li>Partner with us</li>
           </p>
         </div>
-        <div className={styles["contact-info"]}>contentbytes.krk@gmail.com</div>
+        <div className={styles["contact-info"]}>hello@contentbytes.pl</div>
       </div>
     </div>
   );

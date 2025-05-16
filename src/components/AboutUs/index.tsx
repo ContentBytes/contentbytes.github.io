@@ -4,7 +4,7 @@ import { ButtonBlack, ButtonWhite } from "../Button";
 import Pill from "../Pill";
 
 const SignupForm = "https://forms.gle/j8CdVnjZQ7v748xH7";
-const UpcomingEvent = "events/2025/6";
+const UpcomingEvent = "events/2025/8";
 const AllEvents = "events";
 
 export default function AboutUs() {
