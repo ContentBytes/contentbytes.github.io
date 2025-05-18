@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 import { ButtonBlack, ButtonWhite } from "../Button";
 import Pill from "../Pill";
 
-const SignupForm = "https://forms.gle/j8CdVnjZQ7v748xH7";
+const SignupForm = "#newsletter";
 const UpcomingEvent = "events/2025/8";
 const AllEvents = "events";
 
