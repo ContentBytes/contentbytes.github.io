@@ -7,25 +7,26 @@ const NewsletterForm =
 
 export default function Newsletter() {
   return (
-    <div id="newsletter" className={clsx("container", styles.spaceBottom)}>
-      <div>
-        <h1 className={styles.title}>Get notified about upcoming events!</h1>
-      </div>
-      {/* <div className={styles.center}> */}
-        <div className="ml-embedded" data-form="3GCsHv"></div>
-        {/* <div className={styles.divider} /> */}
-        {/* <div>
-          <p className={styles.spaceTop}>
-            Leave us your email and we'll keep you
-            <br /> well-informed about what's cooking 👨‍🍳
-          </p>
-          <p>No spam, only essential updates.</p>
-          <p>You can change your preferences any time.</p>
+    <div id="newsletter" className={styles.background}>
+      <div className="container">
+        <div>
+          <h1 className={clsx(styles.title, "padding-bottom--lg")}>
+            Get notified about upcoming events!
+          </h1>
         </div>
-      </div> */}
-      <div>
-        Can't see the form? Try refreshing the page or{" "}
-        <Link to={NewsletterForm}>open the form in a new tab</Link>.
+        <div className={styles.content}>
+          <div className={styles.leftColumn}>
+            <p className={styles.description}>
+              Missed an event? Ready for some content news every once in a
+              while? Sign up for updates!
+            </p>
+            <p className={styles.info}>
+              Can't see the form? Try refreshing the page or{" "}
+              <Link to={NewsletterForm}>open the form in a new tab</Link>.
+            </p>
+          </div>
+          <div className="ml-embedded" data-form="3GCsHv"></div>
+        </div>
       </div>
     </div>
   );
