@@ -11,7 +11,7 @@ export default function Events() {
     <div id="events" className={styles.background}>
       <div className="container">
         <div>
-          <h1 className="padding-bottom--lg">Next event</h1>
+          <h1 className="padding-bottom--lg">Last event</h1>
         </div>
         <div className="padding-bottom--lg">
           <img
@@ -22,8 +22,8 @@ export default function Events() {
         </div>
         <div className={clsx(styles.buttons)}>
           <ButtonWhite link={EventPage} label="👀 Learn more" />
-          <div className={styles.divider} />
-          <ButtonBlack link={SignupForm} label="📨 Sign up" />
+{/*           <div className={styles.divider} />
+          <ButtonBlack link={SignupForm} label="📨 Sign up" /> */}
         </div>
       </div>
     </div>

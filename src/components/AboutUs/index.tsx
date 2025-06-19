@@ -24,7 +24,7 @@ export default function AboutUs() {
             "padding-top--lg"
           )}
         >
-          {/* <Pill text="Next meetup: 27 March" /> */}
+        <Pill text="Summer break, see you in October!" />
         </div>
         <p className={clsx(styles.title)}>
           Community of content enthusiasts
