@@ -32,7 +32,7 @@ export default function AboutUs() {
           from different backgrounds
         </p>
         <div className={clsx(styles.description, "padding-bottom--lg")}>
-          <p>documentation, UX, accessibility, AI, storytelling, management</p>
+          <p>documentation, UX writing, accessibility, AI, storytelling, management</p>
         </div>
         <div
           className={clsx(styles.centerButtons, styles.buttons, "padding-bottom--lg")}
