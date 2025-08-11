@@ -3,7 +3,7 @@ import { ButtonBlack, ButtonWhite } from "../Button";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import clsx from "clsx";
 
-const EventPage = "events/2025/9";
+const EventPage = "https://cakeconf.contentbytes.pl";
 const SignupForm = "https://lu.ma/gjmlponl";
 
 export default function Events() {
@@ -11,12 +11,12 @@ export default function Events() {
     <div id="events" className={styles.background}>
       <div className="container">
         <div>
-          <h1 className="padding-bottom--lg">Last event</h1>
+          <h1 className="padding-bottom--lg">Next event</h1>
         </div>
-        <div className="padding-bottom--lg">
+        <div className={clsx("padding-bottom--lg", styles.imageContainer)}>
           <img
             alt="Promotion image for the Content Bytes event."
-            src={useBaseUrl("img/events/event9.png")}
+            src={useBaseUrl("img/cake/cake.png")}
             className={clsx(styles.image)}
           />
         </div>
