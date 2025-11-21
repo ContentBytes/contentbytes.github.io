@@ -16,12 +16,12 @@ export default function Events() {
         <div className={clsx("padding-bottom--lg", styles.imageContainer)}>
           <img
             alt="Promotion image for the Content Bytes event."
-            src={useBaseUrl("img/cake/cake.png")}
+            src={useBaseUrl("img/events/event10.png")}
             className={clsx(styles.image)}
           />
         </div>
         <div className={clsx(styles.buttons)}>
-          <ButtonWhite link={EventPage} label="👀 Learn more" />
+          {/* <ButtonWhite link={EventPage} label="👀 Learn more" /> */}
 {/*           <div className={styles.divider} />
           <ButtonBlack link={SignupForm} label="📨 Sign up" /> */}
         </div>
