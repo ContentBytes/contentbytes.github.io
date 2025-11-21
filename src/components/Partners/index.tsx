@@ -27,13 +27,6 @@ export default function Partners() {
               className={styles.image}
             />
           </Link>
-          <Link to="https://apify.com" title="Go to apify.com">
-            <img
-              src={useBaseUrl("img/partners/apify.png")}
-              alt="Go to apify.com"
-              className={styles.image}
-            />
-          </Link>
           <Link to="https://fortedigital.com" title="Go to fortedigital.com">
             <img
               src={useBaseUrl("img/partners/forte.svg")}
