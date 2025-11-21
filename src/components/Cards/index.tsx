@@ -1,8 +1,6 @@
 import styles from "./styles.module.css";
-import Logo from "@site/static/img/logo.svg";
 import Link from "@docusaurus/Link";
 import clsx from "clsx";
-import useBaseUrl from "@docusaurus/useBaseUrl";
 
 type OrganizerItem = {
   picture: string;
@@ -26,13 +24,6 @@ const OrganizerList: OrganizerItem[] = [
     alt: "Edyta",
     title: "Senior\nTechnical Writer",
     linkedIn: "https://www.linkedin.com/in/edyta-rakowska/",
-  },
-  {
-    picture: "img/orgs/michal.png",
-    name: "Michał Olender ✍️",
-    alt: "Michał",
-    title: "Technical\nWriter",
-    linkedIn: "https://www.linkedin.com/in/michal-olender/",
   },
   {
     picture: "img/orgs/pawel.png",
