@@ -4,7 +4,6 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const linkedinLink = "https://www.linkedin.com/company/content-bytes/";
 const instagramLink = "https://www.instagram.com/contentbytes.krk/";
-const facebookLink = "https://www.facebook.com/people/Content-Bytes/61564025612434/";
 
 const config: Config = {
   title: "Content Bytes",
@@ -96,12 +95,6 @@ const config: Config = {
           label: "Contact",
         },
         {
-          href: facebookLink,
-          position: 'right',
-          className: "navbar--socials-icon facebook-icon", 
-          'aria-label': "Facebook",
-        },
-        {
           href: instagramLink,
           position: 'right',
           className: "navbar--socials-icon instagram-icon", 
@@ -126,10 +119,6 @@ const config: Config = {
         {
           label: "Instagram",
           href: instagramLink, 
-        },
-        {
-          label: "Facebook",
-          href: facebookLink,
         },
         {
           label: "LinkedIn",
