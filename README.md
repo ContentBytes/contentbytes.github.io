@@ -8,7 +8,7 @@ We strongly believe that exploring areas such as UX and UI, product design, trai
 
 https://contentbytes.pl
 
-Join us: [Facebook](https://www.facebook.com/people/Content-Bytes/61564025612434/) - [Instagram](https://www.instagram.com/contentbytes.krk/) - [LinkedIn](https://www.linkedin.com/company/content-bytes/)
+Join us: [Instagram](https://www.instagram.com/contentbytes.krk/) - [LinkedIn](https://www.linkedin.com/company/content-bytes/)
 
 <!--
 **ContentBytes/contentbytes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
