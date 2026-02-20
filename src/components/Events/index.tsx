@@ -11,12 +11,12 @@ export default function Events() {
     <div id="events" className={styles.background}>
       <div className="container">
         <div>
-          <h1 className="padding-bottom--lg">Next event</h1>
+          <h1 className="padding-bottom--lg">Last event</h1>
         </div>
         <div className={clsx("padding-bottom--lg", styles.imageContainer)}>
           <img
             alt="Promotion image for the Content Bytes event."
-            src={useBaseUrl("img/events/event10.png")}
+            src={useBaseUrl("img/events/event11.png")}
             className={clsx(styles.image)}
           />
         </div>
