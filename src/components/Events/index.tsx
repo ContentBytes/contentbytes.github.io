@@ -16,7 +16,7 @@ export default function Events() {
         <div className={clsx("padding-bottom--lg", styles.imageContainer)}>
           <img
             alt="Promotion image for the Content Bytes event."
-            src={useBaseUrl("img/events/event11.png")}
+            src={useBaseUrl("img/events/event12.png")}
             className={clsx(styles.image)}
           />
         </div>
