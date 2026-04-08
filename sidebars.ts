@@ -4,6 +4,9 @@ const sidebars: SidebarsConfig = {
  
   events: [
     'events/index',
+    'events/2026/12',
+    'events/2026/11',
+    'events/2025/10',
     'events/2025/9',
     'events/2025/8',
     'events/2025/7',
