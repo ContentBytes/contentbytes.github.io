@@ -95,6 +95,12 @@ const config: Config = {
           label: "Contact",
         },
         {
+          to: "https://cakeconf.contentbytes.pl",
+          position: "right",
+          label: "🧁 CAKE conf 2026",
+          className: "cake-button"
+        },
+        {
           href: instagramLink,
           position: 'right',
           className: "navbar--socials-icon instagram-icon", 
