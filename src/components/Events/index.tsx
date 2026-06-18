@@ -4,26 +4,26 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import clsx from "clsx";
 
 const EventPage = "https://cakeconf.contentbytes.pl";
-const SignupForm = "https://lu.ma/gjmlponl";
+const SignupForm = "https://luma.com/9t3gshn8";
 
 export default function Events() {
   return (
     <div id="events" className={styles.background}>
       <div className="container">
         <div>
-          <h1 className="padding-bottom--lg">Last event</h1>
+          <h1 className="padding-bottom--lg">Next event</h1>
         </div>
         <div className={clsx("padding-bottom--lg", styles.imageContainer)}>
           <img
             alt="Promotion image for the Content Bytes event."
-            src={useBaseUrl("img/events/event14.png")}
+            src={useBaseUrl("img/events/event15.png")}
             className={clsx(styles.image)}
           />
         </div>
         <div className={clsx(styles.buttons)}>
           {/* <ButtonWhite link={EventPage} label="👀 Learn more" /> */}
-{/*           <div className={styles.divider} />
-          <ButtonBlack link={SignupForm} label="📨 Sign up" /> */}
+{/*           <div className={styles.divider} />*/}
+          <ButtonBlack link={SignupForm} label="📨 Sign up" /> 
         </div>
       </div>
     </div>
